@@ -8,9 +8,9 @@
 }
 
 body{
-    height: 110vh;
+    min-height: 110vh;
     width:100vw;
-    border: solid orange 1px;
+    border: solid rgb(223, 235, 251) 1px;
     background-color:rgb(39, 27, 27);
     background-image: url(/assets/images/fondo2.jpg);
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body{
 
 nav{
     display:flex;
-    height: 10vh;
+    min-height: 10vh;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid white;
@@ -386,3 +386,116 @@ td{
     margin-top: 10px;
 
 }
+/*comienza raffle*/
+.ir1{
+    width:15rem;
+    height:15rem;
+    border-radius:15px;
+}
+
+.ir2{
+    width:15rem;
+    height:15rem;
+    border-radius:15px;
+}
+.mainr{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+.imr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:35rem;
+}
+.divform{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:20rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: solid 0px red;
+    font-family: arial;
+    font-size: large;
+    color:rgb(239, 239, 249) ;
+}
+
+footer{
+    display: flex;
+    min-height:25vh;
+    justify-content: start;
+    align-items: center;
+    border-top: solid white 1px;
+}
+
+.mapa{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.titraf{
+    font-size: larger;
+    font-family: arial;
+    color:rgb(239, 239, 249) ;
+    margin-bottom:20px;
+    text-align: justify;
+   
+}
+
+fieldset{
+    border: 0.0cm red solid;
+}
+
+.raf1{
+    height:3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.payr{
+    height: 5rem;
+    display: flex;
+}
+
+.paybotr{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.servicr{
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titfor{
+    font-size: larger;
+    font-family: arial;
+    color:rgb(239, 239, 249) ;
+}
+.acceptr{
+    display: flex;
+    flex-direction:row;
+    font-size: small;;
+}
+.sumdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sendr{   font-size: larger;
+    font-family: arial;
+    color:rgb(239, 239, 249) ;
+    background-color: #3b393d;
+    width:10rem;
+}
+

@@ -10,7 +10,7 @@
 body{
     min-height: 110vh;
     width:100vw;
-    border: solid rgb(223, 235, 251) 1px;
+    border: solid rgb(223, 235, 251) 0px;
     background-color:rgb(39, 27, 27);
     background-image: url(/assets/images/fondo2.jpg);
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ header{
 .titulis2h{   display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content:center ;
     height: 35vh;
 }
 .titulis2{
@@ -75,11 +75,11 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    height: 22rem;
+    height: 25rem;
     width:35rem;
     background-image:url(/assets/images/guys.jpg);
     background-position: center;
-    background-size:35rem 17rem;
+    background-size:cover;
     background-repeat: no-repeat;
     margin-top:2vh;
     border-radius:15px;
@@ -134,11 +134,11 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+   
 }
 
 .p1i2i{  
-    height:20em;
+    height:20rem;
     width:25rem;
     background-image: url(/assets/images/image-1.jpg);
     background-position: center;
@@ -147,6 +147,8 @@ h2{
     flex-direction: column;
     align-items: center;
     border-radius:15px;
+    margin-top: 2rem;
+  
 }
 .pi1{
     display: flex;
@@ -292,10 +294,10 @@ h2{
     text-decoration: underline;
     color:  rgb(239, 239, 249);
 }
-/*ampieza schedule*/
+/*empieza schedule*/
 
 .mains{
-    height: 60vh;
+    min-height: 60vh;
     width:100vw;
     display: flex;
     justify-content: center;
@@ -497,5 +499,82 @@ fieldset{
     color:rgb(239, 239, 249) ;
     background-color: #3b393d;
     width:10rem;
+    margin-bottom: 1rem;
 }
+.mapa{
+    margin-left: 2vw;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    
+    
+    .titulis2{
+        height: 11rem;
+        width:20rem;
+        background-size:20rem 11rem;
+    }
+        
+    .titulis2h{  
+            height: 30vh;
+        }
+    .p1i2i{  
+            height:20rem;
+            width:20rem;}
+
+    body{
+        background-repeat:repeat;
+        background-size:cover;
+    }
+    .titulcs2h{
+        display:flex;height: 45vh;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .titulcs2{
+        height: 20rem;
+        width: 20rem;
+    }
+    .mainc{
+        min-height:20vh ;
+        
+    }
+    .pc1{
+        height: 10rem;
+    }
+    .matex{
+        width:20rem;
+        height: 5rem;}
+
+    .mail{
+     font-size: large;
+    }
+
+
+    table{
+        font-size: medium;
+
+    }
+    thead{
+        font-size: large;
+    }
+    
+    .headsc{
+        height:20vh;
+    }
+    .listab{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: larger;
+        margin-left:10vw ;
+    }
+    .headbe{
+        height:20vh;
+        text-align: justify;
+    }
+}
+/* solo se tomara de escepcion pantallas pequeñas, ya que por defecto estan hechos para pantallas medianas y grandes*/
 
